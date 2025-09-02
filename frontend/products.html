@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+</head>
+<body>
+  <h1>Products</h1>
+  <form id="add-product-form">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="number" name="price" placeholder="Price" required>
+    <input type="number" name="quantity" placeholder="Quantity" required>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="product-list"></ul>
+  <script src="js/products.js"></script>
+</body>
+</html>

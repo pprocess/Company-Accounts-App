@@ -1,0 +1,14 @@
+[
+    {
+        "id": "ab65d61c",
+        "name": "yrt",
+        "price": 39,
+        "quantity": 1000
+    },
+    {
+        "id": "c7af2a93",
+        "name": "bottle",
+        "price": 20,
+        "quantity": 1000
+    }
+]
